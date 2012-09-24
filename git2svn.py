@@ -3,13 +3,11 @@ import os
 # read in the commit diffs
 
 # Eg.
-# git diff --name-status 2abc775fae354a0b4deaee1f2eb1df9a7ff573a3 c1f0530a4c02706ef0bc28ec301c268d450f3b47
-# M       apps/frontend/modules/profile/templates/_commonJs.php
-# M       apps/frontend/modules/reagent/actions/addbatchimportreagentAction.class.php
-# M       apps/frontend/modules/reagent/templates/addbatchSuccess.php
-# M       apps/frontend/modules/reagent/templates/batchImportDetailsSuccess.php
-# M       apps/frontend/modules/upload/templates/batchReagentImport2Success.php
-# D		  apps/frontend/modules/upload/actions/batchReagentImport2Action.php
+# git diff --name-status 2abc775f c1f0530a
+# M       common.php
+# M       file.class.php
+# M       fileSuccess.php
+# D	  deletedFile.php
 
 
 # run git log
